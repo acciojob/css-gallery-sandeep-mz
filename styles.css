@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+/* Style for the container that holds the images */
+.cards {
+    display: flex; /* Arrange images in a row */
+    flex-wrap: wrap; /* Allow elements to move to the next line when space is insufficient */
+    justify-content: flex-start; /* Align images to the start of the container */
+}
+
+/* Style for each individual image */
+.cards img {
+    margin: 10px; /* Margin around each image */
+    border: 3px solid #000; /* 3px solid black border */
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3); /* Box shadow */
+    max-width: 25vw; /* Maximum width of 25% of the viewport width */
+    height: auto; /* Maintain aspect ratio */
+}
