@@ -1,7 +1,7 @@
 /* Style for the container that holds the images */
 .cards {
-    display: flex; /* Arrange images in a row */
-    flex-wrap: wrap; /* Allow elements to move to the next line when space is insufficient */
+    /* Allow elements to move to the next line when space is insufficient */
+	align-items:flex-end;
     justify-content: flex-start; /* Align images to the start of the container */
 }
 
